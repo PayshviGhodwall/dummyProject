@@ -24,9 +24,9 @@ function Feed() {
       <div className="container">
         <div className="header_1 align-items-center">
           <div className="col-2">
-            <a className="back_btn" href="">
+            <Link className="back_btn" to="">
               <img src="assets/img/back_btn.png" alt="" />
-            </a>
+            </Link>
           </div>
           <div className="col-8 text-center">
             <div className="pagename">Tech air puffer</div>
@@ -60,16 +60,16 @@ function Feed() {
                 <div className="col-12">
                   <div className="row">
                     <div className="col-6 pe-2">
-                      <a className="bookmark" href="">
+                      <Link className="bookmark" to="">
                         <img src="assets/img/bookmark.png" alt="" />
                         Boomark
-                      </a>
+                      </Link>
                     </div>
                     <div className="col-6 ps-2">
-                      <a className="remix" href="">
+                      <Link className="remix" to="">
                         <img src="assets/img/remix.png" alt="" />
                         Remix
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

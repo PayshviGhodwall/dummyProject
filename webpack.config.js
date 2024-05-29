@@ -44,7 +44,7 @@ module.exports = {
     }),
     new webpack.DefinePlugin({
       "process.env.REACT_APP_APIENDPOINT": JSON.stringify(
-        "https://www.fivesocnet.online:2053"
+        "http://ec2-52-66-186-107.ap-south-1.compute.amazonaws.com:3005"
       ),
     }),
 
