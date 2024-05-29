@@ -4,7 +4,7 @@ import webHttpService from "../../apiServices/webHttpService";
 export const getPost = createAsyncThunk("getPost", async () => {
   try {
     const { data } = await webHttpService.get(
-      `${process.env.REACT_APP_APIENDPOINT}/api/user/getPostDetail/66570c4aaa81a47dd0c7210f`
+      `${process.env.REACT_APP_APIENDPOINT}/api/user/getPostDetail/66572ba8a20d039bad4724ff`
     );
     console.log(data);
 

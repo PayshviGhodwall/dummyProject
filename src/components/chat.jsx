@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
+const divStyle = { height: `calc(${window.innerHeight}px - 124px)` };
 
 function Chats() {
   useEffect(() => {

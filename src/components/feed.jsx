@@ -97,7 +97,7 @@ function Feed() {
               <div className="row appersin_main pt-3">
                 <div className="col-6 pe-1">
                   {feed?.post
-                    ?.slice(0, feed?.post?.length / 2 + 1)
+                    ?.slice(0, feed?.post?.length / 2)
                     .map((item, index) => {
                       return (
                         <Link className="appersin_imgs mb-2" to="">
@@ -108,7 +108,7 @@ function Feed() {
                 </div>
                 <div className="col-6 ps-1">
                   {feed?.post
-                    ?.slice(feed?.post?.length / 2 + 1, feed?.post?.length)
+                    ?.slice(feed?.post?.length / 2, feed?.post?.length)
                     .map((item, index) => {
                       return (
                         <Link className="appersin_imgs mb-2" to="">
