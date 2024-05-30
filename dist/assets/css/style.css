@@ -5,7 +5,7 @@
 body,
 html {
   overflow-x: hidden;
-  background-color: #c7c5b8;
+  background-color: #c7c4b8;
   font-family: "Inter";
 }
 
@@ -501,5 +501,10 @@ h6 {
     color: rgba(0, 0, 0, 0.5);
     font-size: 14px;
     line-height: 20px;
+  }
+  .imgg {
+    width: 60px !important;
+    position: absolute;
+    bottom: 20px;
   }
 }

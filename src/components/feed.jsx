@@ -53,8 +53,13 @@ function Feed() {
               </div>
               <div className="row">
                 <div className="col-12 mb-4">
-                  <div className="feed_img">
+                  <div className="feed_img position-relative">
                     <img src={post?.image} alt="" />
+                    <img
+                      className="imgg"
+                      src="assets/img/img_icon.png"
+                      alt=""
+                    />
                   </div>
                 </div>
                 <div className="col-12">
@@ -62,7 +67,7 @@ function Feed() {
                     <div className="col-6 pe-2">
                       <Link className="bookmark" to="">
                         <img src="assets/img/bookmark.png" alt="" />
-                        Boomark
+                        Bookmark
                       </Link>
                     </div>
                     <div className="col-6 ps-2">
